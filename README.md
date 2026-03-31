@@ -95,3 +95,7 @@ See the LICENSE file for more details.
 Stellar Development Foundation – Stellar Network
 Freighter – Wallet Extension
 Tailwind CSS – Styling Framework
+
+<img width="3200" height="1904" alt="Screenshot 2026-04-01 011640" src="https://github.com/user-attachments/assets/31d06fec-e476-4585-8048-0660826d3ea8" />
+
+<img width="3200" height="1904" alt="Screenshot 2026-04-01 011321" src="https://github.com/user-attachments/assets/10125a50-33df-4f5a-ac7a-1240b3d00582" />
