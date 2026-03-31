@@ -1,71 +1,97 @@
+🌟 Stellar Connect Wallet
+
+A modern React-based web application that enables users to securely connect and interact with their Stellar wallet using the Freighter extension.
+
+📁 Project Structure
 stellar-connect-wallet/
-├── public/ # Static assets and PWA manifest
+├── public/              # Static assets and PWA manifest
 ├── src/
-│ ├── components/
-│ │ ├── freighter.js # Wallet integration utilities
-│ │ └── header.js # Main UI component with wallet controls
-│ ├── App.js # Root component
-│ └── index.js # Application entry point
-├── build/ # Production build output
-└── package.json # Dependencies and scripts
+│   ├── components/
+│   │   ├── freighter.js  # Wallet integration utilities
+│   │   └── header.js     # UI component with wallet controls
+│   ├── App.js            # Root component
+│   └── index.js          # Entry point
+├── build/               # Production build output
+└── package.json         # Dependencies and scripts
+⚙️ Installation & Setup
+1. Install Dependencies
+npm install
+2. Start Development Server
+npm start
 
-Install dependencies:
+The application will run at:
 
-Start the development server:
+https://localhost:3000
 
-The app will run on https://localhost:3000 (HTTPS is required for Freighter integration).
+⚠️ Note: HTTPS is required for Freighter wallet integration.
 
-Build for production:
+🏗️ Build for Production
+npm run build
 
-💡 Usage
-Connecting Your Wallet
-Click the "Connect Wallet" button
+This will generate optimized production files in the build/ directory.
+
+💡 Features & Usage
+🔗 Connect Your Wallet
+Click on "Connect Wallet"
 Approve the connection in the Freighter popup
-Your public key and XLM balance will be displayed
-Managing Your Address
-Copy Address: Click the copy icon next to your truncated address
-QR Code: Click the QR icon to generate a shareable QR code
-Disconnect: Use the disconnect button to clear wallet data
-Future Features (Infrastructure Ready)
-Transaction history viewing
-Send XLM functionality
-Advanced transaction signing
+View your public key and XLM balance
+📋 Manage Wallet Address
+Copy Address: Click the copy icon
+QR Code: Generate a shareable QR code
+Disconnect: Safely disconnect your wallet
+🚧 Upcoming Features
+📜 Transaction history
+💸 Send XLM functionality
+✍️ Advanced transaction signing
 🔧 Configuration
-Environment Setup
-The app is configured to work with Stellar's testnet by default:
+🌐 Network Setup
+
+The app is configured for Stellar Testnet:
 
 Horizon Server: https://horizon-testnet.stellar.org
 Network: Stellar Testnet
-HTTPS Requirement
-Freighter requires HTTPS for security. The development server is configured with HTTPS=true in the start script.
+🔐 HTTPS Requirement
 
+Freighter requires a secure connection. Ensure your environment uses HTTPS:
+
+HTTPS=true npm start
 🧪 Testing
+
 Run the test suite:
 
-Tests are configured using Jest and React Testing Library.
-
+npm test
+Built with Jest and React Testing Library
 🚀 Deployment
-Build the application:
+Steps:
 
-The build folder contains the production-ready files
+Build the project:
 
-Deploy to any static hosting service (Netlify, Vercel, GitHub Pages, etc.)
-
+npm run build
+Deploy the build/ folder to any static hosting service:
+Netlify
+Vercel
+GitHub Pages
 🔒 Security Considerations
-All wallet interactions go through Freighter's secure interface
+All wallet interactions are handled via Freighter
 Private keys never leave the user's browser
-HTTPS required for all communications
-No sensitive data stored locally
+HTTPS is mandatory for secure communication
+No sensitive data is stored locally
 🤝 Contributing
+
+Contributions are welcome!
+
+Steps:
 Fork the repository
 Create a feature branch
 Make your changes
-Add tests for new functionality
+Add tests (if applicable)
 Submit a pull request
 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
 
 🙏 Acknowledgments
-Stellar Development Foundation for the Stellar network
-Freighter for the wallet extension
-Tailwind CSS for the styling framework
+Stellar Development Foundation – Stellar Network
+Freighter – Wallet Extension
+Tailwind CSS – Styling Framework
