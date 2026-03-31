@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@stellar/freighter-api": "^6.0.1",
+    "@stellar/stellar-sdk": "^15.0.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "cross-env": "^10.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
